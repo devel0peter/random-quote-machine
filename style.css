@@ -1,1 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+}
 
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #d0d0d0;   
+    text-align: center;
+    padding: 3%;
+    transform: translate(-50%, -50%);
+}
