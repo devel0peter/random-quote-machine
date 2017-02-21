@@ -2,14 +2,60 @@
     margin: 0;
     padding: 0;
     font-family: 'Bitter', serif;
+    font-size: 30px;
 }
 
 .container {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
-    background-color: #d0d0d0;   
-    text-align: center;
-    padding: 3%;
     transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 500px;
 }
+.quote {
+    background-color: #fff;
+    padding: 3%;
+    max-width: 100%;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.quote-text {
+    text-align: left;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    margin-top: 60px;
+    font-size: 70%;
+}
+.footer p {
+    font-size: 50%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.buttons-div {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.button {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 47%;
+    padding: 1%;
+    font-size: 70%;
+    cursor: pointer;
+    background-color: #fff;
+}
+#tweet-it {
+    float: left;
+}
+#new-quote {
+    float: right;
+}
+
+
