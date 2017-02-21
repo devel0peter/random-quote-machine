@@ -10,12 +10,12 @@
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
-    max-width: 500px;
+    width: 70%;
+    max-width: 600px;
 }
 .quote {
     background-color: #fff;
-    padding: 3%;
+    padding: 5%;
     max-width: 100%;
     border-radius: 4px;
     border: 1px solid black;
@@ -51,10 +51,10 @@
     cursor: pointer;
     background-color: #fff;
 }
-#tweet-it {
+#tweet-btn {
     float: left;
 }
-#new-quote {
+#new-quote-btn {
     float: right;
 }
 
