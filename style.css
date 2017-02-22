@@ -1,8 +1,17 @@
 * {
     margin: 0;
+    padding: 0
+}
+
+body,
+html {
+    margin: 0;
     padding: 0;
+    height: 100vh;
     font-family: 'Bitter', serif;
     font-size: 30px;
+    background-image: url(wallpaper.jpg);
+    background-position: center;
 }
 
 .container {
@@ -12,17 +21,19 @@
     transform: translate(-50%, -50%);
     width: 70%;
     max-width: 600px;
+    
 }
+
 .quote {
-    background-color: #fff;
+    background-color: #ededed;
     padding: 5%;
     max-width: 100%;
     border-radius: 4px;
-    border: 1px solid black;
+    box-shadow: 5px 5px 5px #4f7ec9;
 }
+
 .quote-text {
-    text-align: left;
-    font-style: italic;
+    text-align: center;
 }
 
 .quote-author {
@@ -30,10 +41,12 @@
     margin-top: 60px;
     font-size: 70%;
 }
+
 .footer p {
-    font-size: 50%;
+    font-size: 45%;
     text-align: center;
     margin-top: 1%;
+    color: #fff;
 }
 
 .buttons-div {
@@ -42,20 +55,28 @@
     margin: auto;
     text-align: center;
 }
+
 .button {
-    border: 1px solid black;
     border-radius: 4px;
-    width: 47%;
+    width: 49.5%;
     padding: 1%;
     font-size: 70%;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #ededed;
+    border: 1.5px solid #fff;
+    box-shadow: 5px 5px 5px #4f7ec9;
 }
+
+.button:hover {
+    border: 1.5px solid #4FA1C9;
+    color: #4FA1C9;
+    transition: border 0.3s, color 0.3s;
+}
+
 #tweet-btn {
     float: left;
 }
+
 #new-quote-btn {
     float: right;
 }
-
-
